@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2{
+    width: 60%;
+    margin: auto;
+}
+.container2 > .Adress{
+    font-size: 20px;
+    color: rgba(82, 82, 188, 0.313);
+}
+.container2 > form{
+    display: block;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.container2 > form > input{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}

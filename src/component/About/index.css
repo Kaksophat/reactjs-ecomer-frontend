@@ -1,0 +1,48 @@
+.container{
+    width: 60%;
+    margin: auto;
+}
+.container > .About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.container > .About > .image ,
+.contant{
+    width: 50%;
+}
+.container > .About > .image > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container > .About > .contant > h1{
+    padding-bottom: 30px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.container > .About > .contant > .text1{
+    padding-bottom: 30px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+.container > .About > .contant > .text2 > span{
+    background-color: lightgray;
+    padding: 3px;
+}
+.container > .About > .contant > .text2{
+    line-height: 1.5;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+.container > .About > .contant > .smalltext{
+    color: darkgray;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
